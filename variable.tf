@@ -15,6 +15,6 @@ locals {
     "ap-northeast-1c" = 2
   }
 
-  aws_access_key  = "AKIAID4Q5R3JK3IOJ73Q"
-  aws_sercret_key = "c/CiCqkUXSnegRrlz3XPEYMqGX7Nffid24KMI8Ml"
+  aws_access_key  = "AKIAUOBDVBG6AIERC2CQ"
+  aws_sercret_key = "F4/PKZ/mLzfjR4xy2JAGpnREpu5mlQXCUt3HeKhR"
 }

@@ -1,7 +1,7 @@
 resource "aws_instance" "ec2" {
   ami               = "ami-052652af12b58691f"
   availability_zone = "ap-northeast-1a"
-  instance_type     = "r5a.xlarge"
+  instance_type     = "r5.xlarge"
   monitoring        = "false"
   key_name          = "my-key"
   #vpc_security_group_ids      = aws_security_group.bastion_sg.id
