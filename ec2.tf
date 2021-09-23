@@ -1,7 +1,7 @@
 resource "aws_instance" "ec2" {
   ami               = "ami-052652af12b58691f"
   availability_zone = "ap-northeast-1a"
-  instance_type     = "t2.micro"
+  instance_type     = "r5a.xlarge"
   monitoring        = "false"
   key_name          = "my-key"
   #vpc_security_group_ids      = aws_security_group.bastion_sg.id
@@ -11,7 +11,7 @@ resource "aws_instance" "ec2" {
 
   root_block_device {
     volume_type           = "gp2"
-    volume_size           = "8"
+    volume_size           = "100"
     delete_on_termination = true
   }
   tags = {
