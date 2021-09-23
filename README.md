@@ -12,7 +12,7 @@ aws_access_key  = "XXXXXXXXXXXXX"
 aws_sercret_key = "XXXXXXXXXXXXX"
 ```
 
-terraformのインストール後、書きコマンドを実行してください。
+terraformのインストール後、下記コマンドを実行してください。
 ```
 terraform init
 terraform workspace new stg
@@ -29,7 +29,7 @@ terraform validate
 terraform plan
 ```
 
-planを実行するIPアドレスの入力が求められます。
+terrafrom planを実行するとIPアドレスの入力が求められます。
 terraform実行端末のグローバルIPアドレスを入力してください。
 EC2インスタンスへのSSHを許可する接続元IPアドレスとなります。
 ```
@@ -37,7 +37,7 @@ var.local_global_ip
   Enter a value: 111.11.11.111
 ```
 
-実行
+問題なければ、実行
 ```
 terraform apply
 ```
